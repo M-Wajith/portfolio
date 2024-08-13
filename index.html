@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <style>
+        body {
+            color: #36454f;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        #header {
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            background-color: rgb(133, 134, 216);
+        }
+
+        #name {
+            color: #36454f;
+            margin: 0;
+            background-color: rgb(133, 134, 216);
+            color: white;
+        }
+
+        #role {
+            color: #36454f;
+            margin: 5px 0 0 0;
+            background-color: rgb(133, 134, 216);
+            color: white;
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: rgb(60, 64, 107);
+            color: white;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            top: 110px;
+            z-index: 999;
+            height: 20px;
+            align-content: center;
+        }
+
+        .topnav a {
+            color: white; 
+            text-decoration: none; 
+            margin: 0 20px;
+            padding-left: 50px;
+        }
+
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        #content {
+            margin-top: 160px; 
+            padding: 20px;
+        }
+
+        .heading {
+            color: #36454f;
+            margin-left: 35px;
+        }
+
+        ul {
+            padding-left: 35px;
+        }
+
+        li {
+            margin-left: 35px;
+            margin-bottom: 10px;
+        }
+
+        #work {
+            padding-left: 35px;
+        }
+
+        .skills-section {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .skills-list {
+            padding: 0;
+        }
+
+        .skills-list li {
+            margin-left: 65px;
+            margin-bottom: 10px;
+        }
+
+        .language-section ul {
+            padding-left: 35px;
+            margin: 0;
+        }
+
+        .language-section ul li {
+            margin-bottom: 10px;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        #about-me, #edu, #skills, #work-experience, #project, #course, #lang {
+            scroll-margin-top: 150px; /* Adjust this value as needed to fit the height of your fixed header and navbar */
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div id="header">
+        <h1 id="name">MOHAMED WAJITH</h1>
+        <h2 id="role">IT Undergraduate</h2>
+    </div>
+
+    <div class="topnav" style="display: flex">
+        <a href="#about-me">About Me</a>
+        <a href="#edu">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#work-experience">Work Experience</a>
+        <a href="#project">Projects</a>
+        <a href="#course">Courses & Certification</a>
+        <a href="#lang">Language</a>
+    </div>
+
+    <div id="content">
+        <div style="display: flex; justify-content: space-between;">
+            <!-- Left Column (About Me and Education) -->
+            <div style="width: 45%;">
+                <h2 class="heading" id="about-me"><u>About Me</u></h2>
+                <ul>
+                    <h4>
+                        <li>
+                            Dedicated and enthusiastic IT professional pursuing a degree
+                            in Information Technology, seeking an internship opportunity to
+                            apply and further develop my skills in Python, Java, React, and
+                            JavaScript. With a strong academic background and hands-on
+                            experience in writing clean, efficient code, I am knowledgeable
+                            about the latest industry trends. I demonstrate strong
+                            problem-solving skills and attention to detail, and am
+                            prepared to contribute to innovative projects while delivering
+                            high-quality results. I am committed to expanding my
+                            technical expertise in a dynamic IT environment.
+                        </li>
+                    </h4>
+                </ul>
+                <br>
+                <h2 class="heading" id="edu"><u>Education</u></h2>
+                <ul>
+                    <li>
+                        <h3>BIT (Hons) in Networking and Mobile Computing</h3>
+                        <p>Horizon Campus  (2020 - Present)</p>
+                    </li>
+                    <li>
+                        <h3>Diploma in English</h3>
+                        <p>Aquinas College  (2016 - 2017)</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div style="width: 45%;">
+                <h2 class="heading" id="work-experience"><u>Work Experience</u></h2>
+                <ul style="list-style-type: none; padding: 0;">
+                    <li>
+                        <h4 style="display: inline-block; margin: 0;">Customer Service Associate</h4>
+                        <p style="display: inline-block; margin-left: 50px; margin: 0;">(2019 - 2020)</p>
+                    </li>
+                    <li>
+                        <h3 style="margin: 0;">Dialog Business Services (Pvt) Ltd | Colombo-02</h3>
+                    </li>
+                </ul>
+                <ul>
+                    <div class="work">
+                        <li>Responded to customer requests via emails, telephone calls, and in-person interactions</li>
+                        <li>Resolved membership and payment issues</li>
+                        <li>Communicated with customers over the phone</li>
+                    </div>
+                </ul>
+                <br>
+                <ul style="list-style-type: none; padding: 0;">
+                    <li>
+                        <h4 style="display: inline-block; margin: 0;">Document Controller</h4>
+                        <p style="display: inline-block; margin-left: 50px; margin: 0;">(2022 - 2023)</p>
+                    </li>
+                    <li>
+                        <h3 style="margin: 0;">A.M.Zameer (LL.B), Attorney-at-Law, Notary Public, Commissioner for Oath</h3>
+                    </li>
+                </ul>
+                <ul>
+                    <div class="work">
+                        <li>Compile, proofread, and edit drafts of legal documents</li>
+                        <li>Maintain daily record-keeping, both electronically and physically</li>
+                        <li>Assist with land registrations</li>
+                        <li>Provide administrative support as needed</li>
+                    </div>
+                </ul>
+
+            </div>
+        </div>
+
+        <br>
+
+        <div class="skills-section">
+            <div style="width: 50%;">
+                <h2 class="heading"id="skills"><u>Skills</u></h2>
+                <ul class="skills-list">
+                    <li><h4>Python</h4></li>
+                    <li><h4>HTML</h4></li>
+                    <li><h4>CSS</h4></li>
+                    <li><h4>JavaScript</h4></li>
+                    <li><h4>PHP</h4></li>
+                    <li><h4>Mobile Application Development Android Studio (Java)</h4></li>
+                    <li><h4>Java</h4></li>
+                    <li><h4>Cloud Computing - Azure, IBM Cloud, Google Cloud</h4></li>
+                    <li><h4>Node.js</h4></li>
+                    <li><h4> Multi-Tasking</h4></li>
+                    <li><h4> Communication Skills</h4></li>
+                    <li><h4>Microsoft Office</h4></li>
+                    <li><h4>Attentive listening</h4></li>
+                    <li><h4>Speed and Efficiency</h4></li>
+                    <li><h4>Ability to Work Under Pressure</h4></li>
+                    <li><h4>Data Entry</h4></li>
+                </ul>
+            </div>
+            <div class="language-section" style="width: 45%;">
+                <h2 class="heading" id="lang"><u>Language</u></h2>
+                <ul>
+                    <h4>
+                    <li>English</li>
+                    <li>Tamil</li>
+                    <li>Sinhala</li>
+                </h4>
+                </ul>
+            </div>
+        </div>
+
+        <br>
+
+        <h2 class="heading" id="project"><u>Projects</u></h2>
+        <h3 style="padding-left: 35px;">Country Information Retrieval via REST API</h3>
+        <a style="padding-left: 35px;" href="https://github.com/M-Wajith/CountryDetails-REST-API-PHP">https://github.com/M-Wajith/CountryDetails-REST-API-PHP.git</a>
+        <ul>
+            <li>Developed a web application that interacts with a REST API</li>
+            <li>Fetched and displayed detailed information about various countries</li>
+            <li>Included details such as the official name, language, population, sub-region, continent, currency, and other relevant information</li>
+            <li>Technologies Used: HTML, Bootstrap, PHP, REST API</li>
+        </ul>
+        <br>
+
+        <h3 style="padding-left: 35px;">Fabric Stain Detection Mobile App</h3>
+        <a style="padding-left: 35px;" href="https://github.com/M-Wajith/Fabric_Stain_Detection-Android_app-Machine_Learning-Tensorflow">https://github.com/M-Wajith/Fabric-Stain-Detection-App.git</a>
+        <ul>
+            <li>Developed an Android application that detects stains on fabric using machine learning algorithms</li>
+            <li>Utilized Python for machine learning and Android Studio for mobile app development</li>
+            <li>Technologies Used: Python, Android Studio, Java, OpenCV</li>
+        </ul>
+        <br>
+
+        <h3 style="padding-left: 35px;">Academic Schedule Management Mobile App </h3>
+        <a style="padding-left: 35px;" href="https://github.com/M-Wajith/Academic-Schedule-Management-App"> https://github.com/M-Wajith/Academic-Schedule-Management-App.git</a>
+        <ul>
+            <li>Developed a mobile application using Java and Firebase to connect students, lecturers, and coordinators</li>
+            <li>Enabled students to view lecture, exam, and other academic schedules, and receive messages from lecturers and coordinators</li>
+            <li>Allowed lecturers to view schedules, receive messages from other users, and send messages</li>
+            <li>Provided coordinators with additional privileges such as adding users, managing schedules, and sending messages to other users
+            </li>
+            <li>Technologies Used: Java, Firebase</li>
+        </ul>
+        <br>
+        <h3 style="padding-left: 35px;">Guess the Number Game</h3>
+        <a style="padding-left: 35px;" href="https://github.com/M-Wajith/Guess-Number-Game"> https://github.com/M-Wajith/Guess-Number-Game.git</a>
+        <ul>
+            <li>Developed an interactive "Guess the Number" game using React</li>
+            <li>Allowed users to guess a randomly generated number between 1 and 10
+            </li>
+            <li>Provided feedback on whether the guess is too high, too low, or correct</li>
+            <li>Technologies Used: React</li>
+        </ul>
+        <br>
+        <h3 style="padding-left: 35px;">City Information Retrieval via REST API</h3>
+        <a style="padding-left: 35px;" href="https://github.com/M-Wajith/CityDetails-REST-API-PHP"> https://github.com/M-Wajith/CityDetails-REST-API-PHP.git</a>
+        <ul>
+            <li>Developed a web application using HTML, Bootstrap, and PHP to interact with a REST API for fetching and displaying detailed city information</li>
+            <li>Enabled users to search for a city and press the enter button to retrieve search results
+            </li>
+            <li>Displayed detailed information including City ID, City Name, State Name, Country Name, and Country Flag when the "details" button is clicked</li>
+            <li>Technologies Used: HTML, Bootstrap, PHP, REST API
+            </li>
+        </ul>
+        <br>
+
+        <h2 class="heading" id="course"><u>Courses & Certification</u></h2>
+        <ul>
+            <li>Google Cyber Security
+                <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/GP49RJVWYM7L"><br>https://www.coursera.org/account/accomplishments/specialization/certificate/GP49RJVWYM7L</a>
+            </li>
+            
+            <li>Introduction to Cloud Computing <br><a href="https://www.coursera.org/account/accomplishments/certificate/PY93K4HS8C6R">https://www.coursera.org/account/accomplishments/certificate/PY93K4HS8C6R</a></li>
+            
+            <li>Network Basics <br><a href="https://www.credly.com/badges/6f84125f-f4f8-4c3f-83cf-016438d8fae1/public_url">https://www.credly.com/badges/6f84125f-f4f8-4c3f-83cf-016438d8fae1/public_url</a></li>
+            
+            <li>Getting Start with Git and GitHub <br><a href="https://www.coursera.org/account/accomplishments/certificate/P65989RN6SKZ">https://www.coursera.org/account/accomplishments/certificate/P65989RN6SKZ</a></li>
+            
+        </ul>
+
+    </div>
+</body>
+</html>
